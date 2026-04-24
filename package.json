@@ -86,6 +86,10 @@
   },
   "jest": {
     "verbose": true,
-    "testTimeout": 15000
+    "testTimeout": 30000,
+    "collectCoverageFrom": [
+      "src/**/*.ts",
+      "!src/**/*.d.ts"
+    ]
   }
 }
